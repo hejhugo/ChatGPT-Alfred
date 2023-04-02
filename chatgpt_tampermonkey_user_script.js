@@ -25,6 +25,7 @@ const interval = setInterval(() => {
     // const form = inputEl.closest("form")
     // form.dispatchEvent(new Event("submit")) // eslint-disable-line no-undef
     const button = inputEl.nextElementSibling
+    button.removeAttribute('disabled')
     button.click()
   }
 }, 500)
