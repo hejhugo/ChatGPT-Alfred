@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        ChatGPT: Parse q parameter to input
 // @description Query ChatGPT from Alfred.
-// @match       https://chat.openai.com/chat*
+// @match       https://chat.openai.com/*
 // @grant       none
 // @version     1.0
 // ==/UserScript==
